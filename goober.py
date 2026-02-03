@@ -36,10 +36,15 @@ def isEven(num):
 num = input()        
 isEven(num) 
 
+
 print("hello")
 non_number = 10/0
 print("world")
-"""
 
 name = input("Enter your name: ")
 print("Hello, " + name + "!")
+"""
+
+name = input("Enter your name:")
+age = input("Enter your age:")
+print(name + "is " + age + " years old.")

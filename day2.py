@@ -16,8 +16,8 @@ d = not False or False and True
 
 print(d) """
 
-a = 10
-b = 3.5
+a = str(49)
+b = float(5.9)
 c = True
 d = 'Z'
 
@@ -35,7 +35,7 @@ print("Next year age:", age_num + 1)
 
 print("\n=== Arithmetic Operators ===")
 x = 7
-y = 3
+y = 4
 print("x + y =", x + y)
 print("x - y =", x - y)
 print("x * y =", x * y)
@@ -62,9 +62,9 @@ print("not p:", not p)
 print("\n=== Precedence and Associativity ===")
 expr1 = 2 + 3 * 4
 expr2 = (2 + 3) * 4
-expr3 = 2 ** 3 ** 2
+expr3 = 2 ** 3 % 2
 expr4 = 5 + 2 * 3 > 10
-expr5 = not False or False and True
+expr5 = not True or False
 
 print("2 + 3 * 4 =", expr1)
 print("(2 + 3) * 4 =", expr2)
@@ -90,5 +90,3 @@ print("n == 10:", is_ten)
 print("\n=== Try Your Own ===")
 print("Change values of x, y, a, b, and expressions in this file.")
 print("Run the file again after each change and observe the results.")
-
-print("")

@@ -158,3 +158,5 @@ while n>0:
     else:
         print("odd")
     n -= 1 
+
+"""odd even odd even odd""" 

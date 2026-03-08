@@ -64,22 +64,8 @@ for row in matrix:
 
 """ Trace of Input Loop
 
-Iteration 1
-User input: 5
-integer = 5
-numlist = [5]
-
-Iteration 2
-User input: -2
-integer = -2
-numlist = [5, -2]
-
-Iteration 3
-User input: 10
-integer = 10
-numlist = [5, -2, 10]
-
-Iteration 4
-User input: 0
-integer = 0
-Loop stops (break) """
+# Loop Trace
+1: input=5 → integer=5 → numlist=[5]
+2: input=-2 → integer=-2 → numlist=[5, -2]
+3: input=10 → integer=10 → numlist=[5, -2, 10]
+4: input=0 → integer=0 → loop ends """

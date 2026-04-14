@@ -36,6 +36,8 @@ def check(a,b):
 
 print(check(1,-1))
 """
+
+"""
 def large_x(x):
     if x > 10:
         if x % 2 == 0:
@@ -44,3 +46,15 @@ def large_x(x):
             print("large odd")
     else:
         print("small")
+"""
+
+def password_length(x):
+    if len(x) >= 8:
+        return "valid"
+    else:
+        return "not valid"
+
+"""   
+temp > 100
+60 < temp <= 100
+temp <= 60 """

@@ -45,3 +45,5 @@ print("(x² - 1)/(x - 1) simplified =", simplify(expr3))
 print("\n(x + 3)**6 expanded =",  expand((x + 3)**6))
 print("x⁴ - 16 factored =",      factor(x**4 - 16))
 print("(x³ - 8)/(x - 2) simplified =", simplify((x**3 - 8)/(x - 2)))
+
+# More exploration

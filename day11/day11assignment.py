@@ -47,3 +47,4 @@ print("x⁴ - 16 factored =",      factor(x**4 - 16))
 print("(x³ - 8)/(x - 2) simplified =", simplify((x**3 - 8)/(x - 2)))
 
 # More exploration
+
